@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello!"
 date:   2021-04-04 17:32:50 +0800
-categories: 其他
+categories: jekyll update
 ---
 
 my github-pages today!
