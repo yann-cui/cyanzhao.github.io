@@ -15,9 +15,9 @@ categories: 面试
 
     - 架构
 
-      <img src="../_source/linux 架构.jpg" alt="linux 架构" style="zoom:40%;" />
+      <img src="https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/linux 架构.jpg" alt="linux 架构" style="zoom:40%;" />
 
-      ![linux 内核架构](../_source/linux 内核架构.png)
+      ![linux 内核架构](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/linux 内核架构.png)
 
     - ~~文件系统~~
 
@@ -66,7 +66,7 @@ categories: 面试
 
         * 终止 
 
-          ![thread_status](../_source/thread_status.png)
+          ![thread_status](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/thread_status.png)
 
       * 守护线程 vs 工作线程
 
@@ -160,7 +160,7 @@ categories: 面试
 
     * 线程池/进程池（线程的复用机制）
 
-      ![线程池](../_source/线程池.png)
+      ![线程池](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/线程池.png)
 
     * 异步编程
 
@@ -184,7 +184,7 @@ categories: 面试
 
         - 阻塞 blocking IO
 
-          ![2阶段网络IO](../_source/2阶段网络IO.jpg)
+          ![2阶段网络IO](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/2阶段网络IO.jpg)
 
         - 非阻塞nonblocking IO
 

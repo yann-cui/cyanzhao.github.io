@@ -77,7 +77,7 @@ categories: 面试
 
       * 生成器、生成器表达式、迭代器、可迭代对象、容器...
 
-        ![迭代器生成器](../_source/迭代器生成器.png)
+        ![迭代器生成器](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/迭代器生成器.png)
 
         * 生成器
 
@@ -297,7 +297,7 @@ categories: 面试
 
         * CsrfViewMiddleware
 
-          ![django_csrfmiddleware](../_source/django_csrfmiddleware.png)
+          ![django_csrfmiddleware](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/django_csrfmiddleware.png)
 
     * flask
 
@@ -446,7 +446,7 @@ categories: 面试
 
         可以指定数据卷（docker volume create xx）或者主机目录挂载到一个或多个容器中，实现数据的共享与持久化
 
-        ![types-of-mounts](../_source/types-of-mounts.png)
+        ![types-of-mounts](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/types-of-mounts.png)
 
       * 网络
 
@@ -456,7 +456,7 @@ categories: 面试
 
             Bridge、Host、Container、None
 
-            ![docker_network_bridge](../_source/docker_network_bridge.png)
+            ![docker_network_bridge](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/docker_network_bridge.png)
 
           * 外部访问容器，端口映射 -p | expose
 
@@ -488,7 +488,7 @@ categories: 面试
 
         * 基本组成（k8s） 
 
-          ![ks8架构](../_source/ks8架构.jpg)
+          ![ks8架构](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/ks8架构.jpg)
 
     * 消息队列
 
@@ -522,7 +522,7 @@ categories: 面试
 
     * 分布式任务分发系统，配置消息队列（gsasync/celery）
 
-      ![celery](../_source/celery.png)
+      ![celery](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/celery.png)
 
     * RPC
 
@@ -556,7 +556,7 @@ categories: 面试
 
       * 平台设计
 
-        ![微服务平台的内容](../_source/微服务平台的内容.jpg)
+        ![微服务平台的内容](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/微服务平台的内容.jpg)
 
     * 分布式存储
 

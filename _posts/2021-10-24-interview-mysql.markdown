@@ -128,8 +128,8 @@ categories: 面试
         - 意向排他锁（IX）：事务打算给数据行加行排他锁，事务在给一个数据行加排他锁前必须先取得该表的 IX 锁
 
       - 锁兼容
-
-        ![InnoDB锁兼容](../_source/InnoDB%E9%94%81%E5%85%BC%E5%AE%B9.jpg?lastModify=1634896953)
+      
+        ![InnoDB锁兼容](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/InnoDB%E9%94%81%E5%85%BC%E5%AE%B9.jpg?lastModify=1634896953)
 
       - 表锁：
 
@@ -149,7 +149,7 @@ categories: 面试
 
       - 锁和多版本数据（MVCC）是 InnoDB 实现可重复读和隔离级别的手段
 
-        ![Screen Shot 2020-03-01 at 9.55.27 PM](../_source/innodb.png?lastModify=1634896953)
+        ![Screen Shot 2020-03-01 at 9.55.27 PM](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/innodb.png?lastModify=1634896953)
 
       - 隐式加锁过程
 
@@ -256,7 +256,7 @@ categories: 面试
 
           重要列解释 type: const：常量，使用了主键/唯一索引 eq_ref：范围，使用了主键/唯一索引 ref：基于索引 range：扫描索引范围 index：基于索引扫描全表 all：扫描全表
 
-          ![msyql](../_source/msyql.png?lastModify=1634896953)
+          ![msyql](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/msyql.png?lastModify=1634896953)
 
           ```
           explain select * from testindex where id >0;
@@ -305,7 +305,7 @@ categories: 面试
       | union<all>   | 结果：两表查询的列字段的相加组合,相同的值合并 两表查询的列含义最好相同 |
       | 自己连接自己 | select a.name, b.name from team a, team b where a.name < b.name |
 
-      ![mysql_join](../_source/mysql_join.jpg?lastModify=1634896953)
+      ![mysql_join](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/mysql_join.jpg?lastModify=1634896953)
 
     - 分组 group by 数据分到一个分组，group by key 常与sum() avg() group_concat()等聚合函数一起使用 可以多个字段
 

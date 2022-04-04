@@ -65,7 +65,7 @@ categories: 面试
 
         * token/jwt (token的标准实现)
 
-          ![token](../_source/token.png)
+          ![token](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/token.png)
 
           1. 用户通过用户名和密码发送请求
           2. 程序验证
@@ -82,7 +82,7 @@ categories: 面试
       2） 双方协商生成"对话密钥"。
       3） 双方采用"对话密钥"进行加密通信。
 
-      ![SSL过程](../_source/SSL过程.gif)
+      ![SSL过程](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/SSL过程.gif)
 
     * websocket
 
@@ -143,7 +143,7 @@ categories: 面试
 
     * 数据格式
 
-      ![TCP报文](../_source/TCP报文.jpg)
+      ![TCP报文](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/TCP报文.jpg)
 
       TCP首部最小为20字节，这20字节分为5行，每行4个字节也就是32个位，各字段占用的字节数如图，各字段表示意义如下：
 
@@ -204,9 +204,9 @@ categories: 面试
       * TCP 建立连接、断开连接三次握手四次挥手
         注意，MSL：Maxinum Segment Lifetime
 
-        ![TCP连接三次握手](../_source/TCP连接三次握手.jpg)
+        ![TCP连接三次握手](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/TCP连接三次握手.jpg)
 
-        ![TCP连接四次挥手](../_source/TCP连接四次挥手.jpg)
+        ![TCP连接四次挥手](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/TCP连接四次挥手.jpg)
 
     * 建立连接后发送数据时
       发送端可以发送多个序列号的报文段，
@@ -239,7 +239,7 @@ categories: 面试
 
     * 数据格式
 
-      ![UDP数据格式](../_source/UDP数据格式.png)
+      ![UDP数据格式](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/UDP数据格式.png)
 
     * 是如何工作的
 
@@ -256,7 +256,7 @@ categories: 面试
 
   * 数据格式
 
-    ![IP协议数据格式](../_source/IP协议数据格式.jpeg)
+    ![IP协议数据格式](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/IP协议数据格式.jpeg)
 
     如果传输层部分字节数过大或者因为数据链路层帧数据段长度限制，IP数据报需要进行分片发送，这在首部的第二行表示。
 
@@ -275,7 +275,7 @@ categories: 面试
 
   数据包（datapacket）是TCP/IP通信协议传输中的数据单位
 
-  ![TCP:IP数据包](../_source/TCP:IP数据包.jpg)
+  ![TCP:IP数据包](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/TCP:IP数据包.jpg)
 
 * and：
 
@@ -285,7 +285,7 @@ categories: 面试
 
     通过在网络各处放置节点服务器，实时地根据网络流量和各节点的连接、负载状况以及到用户的距离和响应时间等综合信息将用户的请求重新导向离用户最近的服务节点上
 
-    ![CDN原理](../_source/CDN原理.jpg)
+    ![CDN原理](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/CDN原理.jpg)
 
   * ddos攻击原理
 
@@ -300,7 +300,7 @@ categories: 面试
 
   * 网络安全
 
-    ![网络安全](../_source/网络安全.png)
+    ![网络安全](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/网络安全.png)
 
     * CSRF（Cross Site Request Forgery）
 
@@ -310,13 +310,13 @@ categories: 面试
 
       - 解决：服务端在set-cookie中设置随机的anti-csrf-token
 
-        ![csrf](../_source/csrf.jpg)
+        ![csrf](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/csrf.jpg)
 
     * XSS（cross-site scripting attacks）
 
       * 攻击者通过代码注入（code injection）的方式，恶意篡改受害者所访问的网站内容；把受害者引导到恶意网站；窃取受害者cookie
 
-        ![stored xss](../_source/stored xss.png)
+        ![stored xss](https://github.com/cyanzhao/cyanzhao.github.io/raw/master/_source/stored xss.png)
 
   * 跨域
 
