@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "面试总结-mysql"
+title:  "mysql"
 date:   2021-10-24 18:01:50 +0800
 categories: 面试
 ---
